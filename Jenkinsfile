@@ -13,7 +13,7 @@ pipeline {
                     // agentagent
                     node {
                         label "win"
-                        customWorkspace "$CPU"
+                        customWorkspace "$WORKSPACE$CPU"
                     }
                 }
                 stages {
